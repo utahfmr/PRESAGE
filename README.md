@@ -58,4 +58,4 @@ sudo make install DESTDIR=<my dir>
 
 PRESAGE is tested on PolyBench/C benchmark suite which can be located at <presage dir>/examples/src/polybench. You can look at the "common.mk" files to understand how PRESAGE can be applied on new programs.
 
-##### Important Note: PRESAGE examples use (VULFI)[http://utahfmr.github.io/VULFI/] for fault injection. Therefore, you must configure and install VULFI before running presage examples.
+##### Important Note: PRESAGE examples use [VULFI](http://utahfmr.github.io/VULFI/) for fault injection. Therefore, you must configure and install VULFI before running presage examples.
