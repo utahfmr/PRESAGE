@@ -15,12 +15,12 @@ Below is the system configuration used for testing all versions of PRESAGE.
 Please refer to the **LICENSE** document located in the top level directory of PRESAGE.
 
 ### Installation
-##### Step 1: Download VULFI. 
+##### Step 1: Download PRESAGE. 
 
 ```
 git clone https://github.com/utahfmr/PRESAGE.git <presage dir>
 ```
-where \<presage dir\> is the directory where you want vulfi source code to live.
+where \<presage dir\> is the directory where you want presage source code to live.
 
 ##### Step 3: Create the build directory.
 
