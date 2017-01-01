@@ -1,0 +1,16 @@
+exec_key,instr_list,original_val,corrupted_val,affected_bit_pos,sdc,benign,crash,error,value_diff,dyn_instr_count,detection_count
+Not Available,,,,,0,0,1,0,1.0,2863104,0
+1482529428045423,"  %70 = getelementptr inbounds double# double* %2# i64 %6",26473968,26473976,3,1,0,0,0,608729462.568,2863104,0
+Not Available,,,,,0,0,1,0,1.0,2863104,0
+Not Available,,,,,0,0,1,0,1.0,2863104,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+Not Available,,,,,0,0,1,0,1.0,2861147,0
+1482534136152168,"  %485 = getelementptr inbounds double# double* %2# i64 %48",8485896,8469512,14,1,0,0,0,24443.81867,2861147,0
+1482534136514636,"  %485 = getelementptr inbounds double# double* %2# i64 %48",6618120,6601736,14,1,0,0,0,24443.81867,2861147,0

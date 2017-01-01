@@ -1,0 +1,21 @@
+Time;"Instr_Nam";Original_Value;Corrupted_Value;Bit_Position
+1482534281730229;"  %70 = getelementptr inbounds double, double* %2, i64 %6";21795968;21271680;19
+1482534282080529;"  %45 = getelementptr inbounds double, double* %0, i64 %4";12885032;140737501240360;47
+1482534282351887;"  %45 = getelementptr inbounds double, double* %0, i64 %4";17398824;140737505754152;47
+1482534282635191;"  %45 = getelementptr inbounds double, double* %0, i64 %4";15854632;140737504209960;47
+1482534282927663;"  %45 = getelementptr inbounds double, double* %0, i64 %4";25857064;140737514212392;47
+1482534283214722;"  %74 = getelementptr inbounds double, double* %0, i64 %7";19741576;2964360;24
+1482534283482546;"  %74 = getelementptr inbounds double, double* %0, i64 %7";26344328;9567112;24
+1482534283747501;"  %74 = getelementptr inbounds double, double* %0, i64 %7";29367176;12589960;24
+1482534284017372;"  %74 = getelementptr inbounds double, double* %0, i64 %7";24826872;36028797043790840;55
+1482534284285285;"  %74 = getelementptr inbounds double, double* %0, i64 %7";14173176;36028797033137144;55
+1482534284640364;"  %73 = getelementptr double, double* %phibase_17, i64 %relidx_8";22091648;36028797041055616;55
+1482534284872759;"  %73 = getelementptr double, double* %phibase_17, i64 %relidx_8";10815360;36028797029779328;55
+1482534285105318;"  %62 = getelementptr double, double* %phibase_69, i64 %relidx_9";9523872;8796102546080;43
+1482534285372731;"  %62 = getelementptr double, double* %phibase_69, i64 %relidx_9";13705888;8796106728096;43
+1482534285661117;"  %62 = getelementptr double, double* %phibase_69, i64 %relidx_9";21619360;8796114641568;43
+1482534285923481;"  %62 = getelementptr double, double* %phibase_69, i64 %relidx_9";32309920;8796125332128;43
+1482534286175757;"  %79 = getelementptr double, double* %phibase_43, i64 %relidx_9";19577184;23771488;22
+1482534286477736;"  %79 = getelementptr double, double* %phibase_43, i64 %relidx_9";34212192;38406496;22
+1482534286782662;"  %79 = getelementptr double, double* %phibase_43, i64 %relidx_9";7649632;3455328;22
+1482534287088909;"  %24 = getelementptr double, double* %castinttoptr6, i64 %relidx_8";15971000;274893877944;38

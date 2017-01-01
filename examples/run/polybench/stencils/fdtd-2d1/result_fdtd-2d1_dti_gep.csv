@@ -1,0 +1,16 @@
+exec_key,instr_list,original_val,corrupted_val,affected_bit_pos,sdc,benign,crash,error,value_diff,dyn_instr_count,detection_count
+Not Available,,,,,0,0,1,0,1.0,2863107,0
+1482529428418139,"  %69 = getelementptr double# double* %phibase_17# i64 %relidx_8",14862864,14862872,3,1,0,0,0,29697571784.7,2863107,2
+Not Available,,,,,0,0,1,0,1.0,2863107,0
+Not Available,,,,,0,0,1,0,1.0,2863107,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0
+Not Available,,,,,0,0,1,0,1.0,2861150,0

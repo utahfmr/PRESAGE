@@ -1,0 +1,1401 @@
+exec_key,instr_list,original_val,corrupted_val,affected_bit_pos,sdc,benign,crash,error,value_diff,dyn_instr_count,detection_count
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482451419069992,"  %53 = getelementptr inbounds double# double* %1# i64 %5",8052832,8052834,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419087818,"  %53 = getelementptr inbounds double# double* %1# i64 %5",37650528,37650530,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419102712,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32014432,32014434,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419121071,"  %53 = getelementptr inbounds double# double* %1# i64 %5",23912544,23912546,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419137204,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22253664,22253666,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419155716,"  %53 = getelementptr inbounds double# double* %1# i64 %5",33914976,33914978,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419172651,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24449120,24449122,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419188696,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24846432,24846434,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419203730,"  %53 = getelementptr inbounds double# double* %1# i64 %5",25960544,25960546,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419222859,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22470752,22470754,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419239791,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15282272,15282274,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419255351,"  %53 = getelementptr inbounds double# double* %1# i64 %5",19296352,19296354,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419274013,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24277088,24277090,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419289891,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16031840,16031842,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419308010,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10932320,10932322,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419324225,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24748128,24748130,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419340998,"  %53 = getelementptr inbounds double# double* %1# i64 %5",33665120,33665122,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419356726,"  %53 = getelementptr inbounds double# double* %1# i64 %5",26644576,26644578,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419374674,"  %53 = getelementptr inbounds double# double* %1# i64 %5",12673120,12673122,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419391702,"  %53 = getelementptr inbounds double# double* %1# i64 %5",30376032,30376034,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419408931,"  %53 = getelementptr inbounds double# double* %1# i64 %5",35250272,35250274,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419425983,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16953440,16953442,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419441956,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34639968,34639970,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419459282,"  %53 = getelementptr inbounds double# double* %1# i64 %5",14991456,14991458,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419474603,"  %53 = getelementptr inbounds double# double* %1# i64 %5",26161248,26161250,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419493304,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16216160,16216162,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419509592,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16068704,16068706,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419526350,"  %53 = getelementptr inbounds double# double* %1# i64 %5",28110944,28110946,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419542703,"  %53 = getelementptr inbounds double# double* %1# i64 %5",29175904,29175906,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419560911,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21622880,21622882,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419578364,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17715296,17715298,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419594092,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34500704,34500706,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419612874,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15786080,15786082,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419629196,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21295200,21295202,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419646056,"  %53 = getelementptr inbounds double# double* %1# i64 %5",36499552,36499554,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419661448,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31015008,31015010,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419679880,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10465376,10465378,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419698402,"  %53 = getelementptr inbounds double# double* %1# i64 %5",14676064,14676066,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419713777,"  %53 = getelementptr inbounds double# double* %1# i64 %5",35352672,35352674,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419733091,"  %53 = getelementptr inbounds double# double* %1# i64 %5",14856288,14856290,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419750247,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22679648,22679650,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419767497,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10322016,10322018,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419783651,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20795488,20795490,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419800201,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34877536,34877538,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419818939,"  %53 = getelementptr inbounds double# double* %1# i64 %5",37822560,37822562,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419836894,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21037152,21037154,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419854957,"  %53 = getelementptr inbounds double# double* %1# i64 %5",23511136,23511138,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419870943,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32555104,32555106,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419888169,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16969824,16969826,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419904424,"  %53 = getelementptr inbounds double# double* %1# i64 %5",39878752,39878754,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419921910,"  %53 = getelementptr inbounds double# double* %1# i64 %5",37003360,37003362,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419940667,"  %53 = getelementptr inbounds double# double* %1# i64 %5",25800800,25800802,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419957020,"  %53 = getelementptr inbounds double# double* %1# i64 %5",7053408,7053410,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419975753,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17920096,17920098,1,1,0,0,0,1.20176325523e+190,19206,0
+1482451419993392,"  %53 = getelementptr inbounds double# double* %1# i64 %5",38457440,38457442,1,1,0,0,0,1.20176325523e+190,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482451424038795,"  %57 = getelementptr inbounds double# double* %2# i64 %4",21578512,21579536,10,0,1,0,0,0.0,19206,0
+1482451424056492,"  %57 = getelementptr inbounds double# double* %2# i64 %4",29078288,29079312,10,0,1,0,0,0.0,19206,0
+1482451424071701,"  %57 = getelementptr inbounds double# double* %2# i64 %4",13636368,13637392,10,0,1,0,0,0.0,19206,0
+1482451424090839,"  %57 = getelementptr inbounds double# double* %2# i64 %4",31355664,31356688,10,0,1,0,0,0.0,19206,0
+1482451424106870,"  %57 = getelementptr inbounds double# double* %2# i64 %4",14607120,14608144,10,0,1,0,0,0.0,19206,0
+1482451424125512,"  %57 = getelementptr inbounds double# double* %2# i64 %4",32621328,32622352,10,0,1,0,0,0.0,19206,0
+1482451424141021,"  %57 = getelementptr inbounds double# double* %2# i64 %4",29582096,29583120,10,0,1,0,0,0.0,19206,0
+1482451424157845,"  %57 = getelementptr inbounds double# double* %2# i64 %4",15581968,15582992,10,0,1,0,0,0.0,19206,0
+1482451424173846,"  %57 = getelementptr inbounds double# double* %2# i64 %4",34874128,34875152,10,0,1,0,0,0.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452736069974,"  %53 = getelementptr inbounds double# double* %1# i64 %5",6640016,6640020,2,1,0,0,0,0.020524,19206,0
+1482452736089326,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22143376,22143380,2,1,0,0,0,0.020524,19206,0
+1482452736106579,"  %53 = getelementptr inbounds double# double* %1# i64 %5",12915088,12915092,2,1,0,0,0,0.020524,19206,0
+1482452736126086,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21197200,21197204,2,1,0,0,0,0.020524,19206,0
+1482452736143206,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24113552,24113556,2,1,0,0,0,0.020524,19206,0
+1482452736162494,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9458064,9458068,2,1,0,0,0,0.020524,19206,0
+1482452736181121,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22008208,22008212,2,1,0,0,0,0.020524,19206,0
+1482452736198214,"  %53 = getelementptr inbounds double# double* %1# i64 %5",38506896,38506900,2,1,0,0,0,0.020524,19206,0
+1482452736216855,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20513168,20513172,2,1,0,0,0,0.020524,19206,0
+1482452736235581,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15782288,15782292,2,1,0,0,0,0.020524,19206,0
+1482452736253152,"  %53 = getelementptr inbounds double# double* %1# i64 %5",28402064,28402068,2,1,0,0,0,0.020524,19206,0
+1482452736272909,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34202000,34202004,2,1,0,0,0,0.020524,19206,0
+1482452736290075,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32678288,32678292,2,1,0,0,0,0.020524,19206,0
+1482452736307780,"  %53 = getelementptr inbounds double# double* %1# i64 %5",25690512,25690516,2,1,0,0,0,0.020524,19206,0
+1482452736324495,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34980240,34980244,2,1,0,0,0,0.020524,19206,0
+1482452736341028,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22659472,22659476,2,1,0,0,0,0.020524,19206,0
+1482452736359640,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32125328,32125332,2,1,0,0,0,0.020524,19206,0
+1482452736377472,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24207760,24207764,2,1,0,0,0,0.020524,19206,0
+1482452736397529,"  %53 = getelementptr inbounds double# double* %1# i64 %5",19984784,19984788,2,1,0,0,0,0.020524,19206,0
+1482452736413937,"  %53 = getelementptr inbounds double# double* %1# i64 %5",14713232,14713236,2,1,0,0,0,0.020524,19206,0
+1482452736431586,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27603344,27603348,2,1,0,0,0,0.020524,19206,0
+1482452736451507,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20078992,20078996,2,1,0,0,0,0.020524,19206,0
+1482452736470681,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10965392,10965396,2,1,0,0,0,0.020524,19206,0
+1482452736489204,"  %53 = getelementptr inbounds double# double* %1# i64 %5",26784144,26784148,2,1,0,0,0,0.020524,19206,0
+1482452736508234,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34771344,34771348,2,1,0,0,0,0.020524,19206,0
+1482452736526222,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9736592,9736596,2,1,0,0,0,0.020524,19206,0
+1482452736545974,"  %53 = getelementptr inbounds double# double* %1# i64 %5",29991312,29991316,2,1,0,0,0,0.020524,19206,0
+1482452736563008,"  %53 = getelementptr inbounds double# double* %1# i64 %5",25797008,25797012,2,1,0,0,0,0.020524,19206,0
+1482452736581694,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17498512,17498516,2,1,0,0,0,0.020524,19206,0
+1482452736601590,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17109392,17109396,2,1,0,0,0,0.020524,19206,0
+1482452736619028,"  %53 = getelementptr inbounds double# double* %1# i64 %5",7238032,7238036,2,1,0,0,0,0.020524,19206,0
+1482452736638670,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31867280,31867284,2,1,0,0,0,0.020524,19206,0
+1482452736655818,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20283792,20283796,2,1,0,0,0,0.020524,19206,0
+1482452736673210,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27361680,27361684,2,1,0,0,0,0.020524,19206,0
+1482452736692684,"  %53 = getelementptr inbounds double# double* %1# i64 %5",39846288,39846292,2,1,0,0,0,0.020524,19206,0
+1482452736710599,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21811600,21811604,2,1,0,0,0,0.020524,19206,0
+1482452736731666,"  %53 = getelementptr inbounds double# double* %1# i64 %5",30593424,30593428,2,1,0,0,0,0.020524,19206,0
+1482452736748976,"  %53 = getelementptr inbounds double# double* %1# i64 %5",6640016,6640020,2,1,0,0,0,0.020524,19206,0
+1482452736769808,"  %53 = getelementptr inbounds double# double* %1# i64 %5",36270480,36270484,2,1,0,0,0,0.020524,19206,0
+1482452736789304,"  %53 = getelementptr inbounds double# double* %1# i64 %5",8176016,8176020,2,1,0,0,0,0.020524,19206,0
+1482452736805933,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31535504,31535508,2,1,0,0,0,0.020524,19206,0
+1482452736825505,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21578128,21578132,2,1,0,0,0,0.020524,19206,0
+1482452736845088,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27509136,27509140,2,1,0,0,0,0.020524,19206,0
+1482452736862564,"  %53 = getelementptr inbounds double# double* %1# i64 %5",30634384,30634388,2,1,0,0,0,0.020524,19206,0
+1482452736883048,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10371472,10371476,2,1,0,0,0,0.020524,19206,0
+1482452736900516,"  %53 = getelementptr inbounds double# double* %1# i64 %5",33538448,33538452,2,1,0,0,0,0.020524,19206,0
+1482452736917723,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17736080,17736084,2,1,0,0,0,0.020524,19206,0
+1482452736937938,"  %53 = getelementptr inbounds double# double* %1# i64 %5",38850960,38850964,2,1,0,0,0,0.020524,19206,0
+1482452736955309,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34697616,34697620,2,1,0,0,0,0.020524,19206,0
+1482452736974009,"  %53 = getelementptr inbounds double# double* %1# i64 %5",18063760,18063764,2,1,0,0,0,0.020524,19206,0
+1482452736991542,"  %53 = getelementptr inbounds double# double* %1# i64 %5",39899536,39899540,2,1,0,0,0,0.020524,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452738081562,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35615536,35615024,9,1,0,0,0,0.003381,19206,0
+1482452738103946,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29954864,29954352,9,1,0,0,0,0.003381,19206,0
+1482452738121564,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13415216,13414704,9,1,0,0,0,0.003381,19206,0
+1482452738140277,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29086512,29086000,9,1,0,0,0,0.003381,19206,0
+1482452738161578,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35390256,35389744,9,1,0,0,0,0.003381,19206,0
+1482452738179245,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37524272,37523760,9,1,0,0,0,0.003381,19206,0
+1482452738197582,"  %58 = getelementptr inbounds double# double* %2# i64 %4",14652208,14651696,9,1,0,0,0,0.003381,19206,0
+1482452738217920,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29569840,29569328,9,1,0,0,0,0.003381,19206,0
+1482452738236173,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8696624,8696112,9,1,0,0,0,0.003381,19206,0
+1482452738256172,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12571440,12570928,9,1,0,0,0,0.003381,19206,0
+1482452738273929,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13472560,13472048,9,1,0,0,0,0.003381,19206,0
+1482452738294317,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18551600,18551088,9,1,0,0,0,0.003381,19206,0
+1482452738313688,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17756976,17756464,9,1,0,0,0,0.003381,19206,0
+1482452738331776,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15471408,15470896,9,1,0,0,0,0.003381,19206,0
+1482452738351680,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17589040,17588528,9,1,0,0,0,0.003381,19206,0
+1482452738373638,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18416432,18415920,9,1,0,0,0,0.003381,19206,0
+1482452738390317,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25621296,25620784,9,1,0,0,0,0.003381,19206,0
+1482452738409421,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21844784,21844272,9,1,0,0,0,0.003381,19206,0
+1482452738429540,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12391216,12390704,9,1,0,0,0,0.003381,19206,0
+1482452738447956,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37315376,37314864,9,1,0,0,0,0.003381,19206,0
+1482452738468706,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12616496,12615984,9,1,0,0,0,0.003381,19206,0
+1482452738489324,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7422768,7422256,9,1,0,0,0,0.003381,19206,0
+1482452738507297,"  %58 = getelementptr inbounds double# double* %2# i64 %4",27390768,27390256,9,1,0,0,0,0.003381,19206,0
+1482452738527834,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20853552,20853040,9,1,0,0,0,0.003381,19206,0
+1482452738545791,"  %58 = getelementptr inbounds double# double* %2# i64 %4",32285488,32284976,9,1,0,0,0,0.003381,19206,0
+1482452738564665,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13046576,13046064,9,1,0,0,0,0.003381,19206,0
+1482452738586695,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26034992,26034480,9,1,0,0,0,0.003381,19206,0
+1482452738604620,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33952560,33952048,9,1,0,0,0,0.003381,19206,0
+1482452738623454,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19768112,19767600,9,1,0,0,0,0.003381,19206,0
+1482452738642501,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7349040,7348528,9,1,0,0,0,0.003381,19206,0
+1482452738660769,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26510128,26509616,9,1,0,0,0,0.003381,19206,0
+1482452738681560,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25928496,25927984,9,1,0,0,0,0.003381,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452809132544,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28951120,28951122,1,1,0,0,0,0.006563,19206,0
+1482452809153067,"  %58 = getelementptr inbounds double# double* %2# i64 %4",22213200,22213202,1,1,0,0,0,0.006563,19206,0
+1482452809174289,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11952720,11952722,1,1,0,0,0,0.006563,19206,0
+1482452809193329,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9814608,9814610,1,1,0,0,0,0.006563,19206,0
+1482452809215930,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28553808,28553810,1,1,0,0,0,0.006563,19206,0
+1482452809237547,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29053520,29053522,1,1,0,0,0,0.006563,19206,0
+1482452809257866,"  %58 = getelementptr inbounds double# double* %2# i64 %4",23454288,23454290,1,1,0,0,0,0.006563,19206,0
+1482452809279299,"  %58 = getelementptr inbounds double# double* %2# i64 %4",14008912,14008914,1,1,0,0,0,0.006563,19206,0
+1482452809300995,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28385872,28385874,1,1,0,0,0,0.006563,19206,0
+1482452809321074,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25211472,25211474,1,1,0,0,0,0.006563,19206,0
+1482452809343863,"  %58 = getelementptr inbounds double# double* %2# i64 %4",27451984,27451986,1,1,0,0,0,0.006563,19206,0
+1482452809366060,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25510480,25510482,1,1,0,0,0,0.006563,19206,0
+1482452809387889,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15508048,15508050,1,1,0,0,0,0.006563,19206,0
+1482452809408503,"  %58 = getelementptr inbounds double# double* %2# i64 %4",27181648,27181650,1,1,0,0,0,0.006563,19206,0
+1482452809430378,"  %58 = getelementptr inbounds double# double* %2# i64 %4",31281744,31281746,1,1,0,0,0,0.006563,19206,0
+1482452809453601,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12530256,12530258,1,1,0,0,0,0.006563,19206,0
+1482452809473653,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19558992,19558994,1,1,0,0,0,0.006563,19206,0
+1482452809495061,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29422160,29422162,1,1,0,0,0,0.006563,19206,0
+1482452809516317,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12091984,12091986,1,1,0,0,0,0.006563,19206,0
+1482452809542078,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8401488,8401490,1,1,0,0,0,0.006563,19206,0
+1482452809562397,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26309200,26309202,1,1,0,0,0,0.006563,19206,0
+1482452809585580,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25711184,25711186,1,1,0,0,0,0.006563,19206,0
+1482452809607143,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33284688,33284690,1,1,0,0,0,0.006563,19206,0
+1482452809627125,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20820560,20820562,1,1,0,0,0,0.006563,19206,0
+1482452809647506,"  %58 = getelementptr inbounds double# double* %2# i64 %4",24179280,24179282,1,1,0,0,0,0.006563,19206,0
+1482452809668969,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19153488,19153490,1,1,0,0,0,0.006563,19206,0
+1482452809693618,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11039312,11039314,1,1,0,0,0,0.006563,19206,0
+1482452809713513,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21557840,21557842,1,1,0,0,0,0.006563,19206,0
+1482452809734985,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29229648,29229650,1,1,0,0,0,0.006563,19206,0
+1482452809757671,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20836944,20836946,1,1,0,0,0,0.006563,19206,0
+1482452809780145,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26276432,26276434,1,1,0,0,0,0.006563,19206,0
+1482452809802905,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35803728,35803730,1,1,0,0,0,0.006563,19206,0
+1482452809824929,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26120784,26120786,1,1,0,0,0,0.006563,19206,0
+1482452809856254,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12358224,12358226,1,1,0,0,0,0.006563,19206,0
+1482452809878115,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9093712,9093714,1,1,0,0,0,0.006563,19206,0
+1482452809900257,"  %58 = getelementptr inbounds double# double* %2# i64 %4",6902352,6902354,1,1,0,0,0,0.006563,19206,0
+1482452809921265,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12563024,12563026,1,1,0,0,0,0.006563,19206,0
+1482452809944414,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12108368,12108370,1,1,0,0,0,0.006563,19206,0
+1482452809966208,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18043472,18043474,1,1,0,0,0,0.006563,19206,0
+1482452809985224,"  %58 = getelementptr inbounds double# double* %2# i64 %4",36311632,36311634,1,1,0,0,0,0.006563,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452814006416,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38015568,38015569,0,1,0,0,0,0.007389,19206,0
+1482452814030649,"  %58 = getelementptr inbounds double# double* %2# i64 %4",23724624,23724625,0,1,0,0,0,0.007389,19206,0
+1482452814053051,"  %58 = getelementptr inbounds double# double* %2# i64 %4",6513232,6513233,0,1,0,0,0,0.007389,19206,0
+1482452814074254,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33083984,33083985,0,1,0,0,0,0.007389,19206,0
+1482452814095038,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18367056,18367057,0,1,0,0,0,0.007389,19206,0
+1482452814118109,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37515856,37515857,0,1,0,0,0,0.007389,19206,0
+1482452814141603,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37655120,37655121,0,1,0,0,0,0.007389,19206,0
+1482452814162379,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28201552,28201553,0,1,0,0,0,0.007389,19206,0
+1482452814183675,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12014160,12014161,0,1,0,0,0,0.007389,19206,0
+1482452814205692,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15602256,15602257,0,1,0,0,0,0.007389,19206,0
+1482452814226865,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33256016,33256017,0,1,0,0,0,0.007389,19206,0
+1482452814247826,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12771920,12771921,0,1,0,0,0,0.007389,19206,0
+1482452814270812,"  %58 = getelementptr inbounds double# double* %2# i64 %4",36942416,36942417,0,1,0,0,0,0.007389,19206,0
+1482452814292072,"  %58 = getelementptr inbounds double# double* %2# i64 %4",39621200,39621201,0,1,0,0,0,0.007389,19206,0
+1482452814313156,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10592848,10592849,0,1,0,0,0,0.007389,19206,0
+1482452814334861,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28037712,28037713,0,1,0,0,0,0.007389,19206,0
+1482452814357812,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19034704,19034705,0,1,0,0,0,0.007389,19206,0
+1482452814378706,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11219536,11219537,0,1,0,0,0,0.007389,19206,0
+1482452814399400,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20251216,20251217,0,1,0,0,0,0.007389,19206,0
+1482452814422536,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28119632,28119633,0,1,0,0,0,0.007389,19206,0
+1482452814445015,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21340752,21340753,0,1,0,0,0,0.007389,19206,0
+1482452814472974,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38343248,38343249,0,1,0,0,0,0.007389,19206,0
+1482452814493647,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15139408,15139409,0,1,0,0,0,0.007389,19206,0
+1482452814516805,"  %58 = getelementptr inbounds double# double* %2# i64 %4",24846928,24846929,0,1,0,0,0,0.007389,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452868173986,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11015040,11080576,16,1,0,0,0,0.047297,19206,0
+1482452868197176,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34796416,34861952,16,1,0,0,0,0.047297,19206,0
+1482452868221863,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29922176,29987712,16,1,0,0,0,0.047297,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452868407177,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12354432,12419968,16,1,0,0,0,0.047297,19206,0
+1482452868432805,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12993408,13058944,16,1,0,0,0,0.047297,19206,0
+1482452868457295,"  %58 = getelementptr inbounds double# double* %2# i64 %4",32002944,32068480,16,1,0,0,0,0.047297,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482452870075594,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21222064,21222065,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870101485,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29106864,29106865,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870127031,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35553968,35553969,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870154812,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11961008,11961009,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870183296,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17851056,17851057,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870213303,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8934064,8934065,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870242897,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38068912,38068913,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870273972,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21877424,21877425,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870313479,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34292400,34292401,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870342305,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25703088,25703089,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870370968,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21750448,21750449,0,1,0,0,0,3.6595593069e+178,19206,0
+1482452870399848,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20038320,20038321,0,1,0,0,0,3.6595593069e+178,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453043038677,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8733552,8741744,13,1,0,0,0,0.094972,19206,0
+1482453043063337,"  %58 = getelementptr inbounds double# double* %2# i64 %4",32265072,32273264,13,1,0,0,0,0.094972,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453043247121,"  %58 = getelementptr inbounds double# double* %2# i64 %4",24429424,24437616,13,1,0,0,0,0.094972,19206,0
+1482453043270875,"  %58 = getelementptr inbounds double# double* %2# i64 %4",27313008,27321200,13,1,0,0,0,0.094972,19206,0
+1482453043295399,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20743024,20751216,13,1,0,0,0,0.094972,19206,0
+1482453043322283,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19432304,19440496,13,1,0,0,0,0.094972,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453043506649,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17847152,17855344,13,1,0,0,0,0.094972,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453043853163,"  %58 = getelementptr inbounds double# double* %2# i64 %4",22942576,22950768,13,1,0,0,0,0.094972,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453044043928,"  %53 = getelementptr inbounds double# double* %1# i64 %5",36643040,36659424,14,1,0,0,0,0.01502,19206,0
+1482453044068408,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20295904,20312288,14,1,0,0,0,0.01502,19206,0
+1482453044092762,"  %53 = getelementptr inbounds double# double* %1# i64 %5",38084832,38101216,14,1,0,0,0,0.01502,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453044439625,"  %53 = getelementptr inbounds double# double* %1# i64 %5",39583968,39600352,14,1,0,0,0,0.01502,19206,0
+1482453044464742,"  %53 = getelementptr inbounds double# double* %1# i64 %5",28782816,28799200,14,1,0,0,0,0.01502,19206,0
+1482453044489361,"  %53 = getelementptr inbounds double# double* %1# i64 %5",23372000,23388384,14,1,0,0,0,0.01502,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453044673958,"  %53 = getelementptr inbounds double# double* %1# i64 %5",36667616,36684000,14,1,0,0,0,0.01502,19206,0
+1482453044699230,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31334624,31351008,14,1,0,0,0,0.01502,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453044883667,"  %53 = getelementptr inbounds double# double* %1# i64 %5",38252768,38269152,14,1,0,0,0,0.01502,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453050053491,"  %53 = getelementptr inbounds double# double* %1# i64 %5",12025920,12042304,14,1,0,0,0,0.002392,19206,0
+1482453050079105,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32682048,32698432,14,1,0,0,0,0.002392,19206,0
+1482453050105175,"  %53 = getelementptr inbounds double# double* %1# i64 %5",13074496,13090880,14,1,0,0,0,0.002392,19206,0
+1482453050131057,"  %53 = getelementptr inbounds double# double* %1# i64 %5",23691328,23707712,14,1,0,0,0,0.002392,19206,0
+1482453050158901,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27435072,27451456,14,1,0,0,0,0.002392,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453050346625,"  %53 = getelementptr inbounds double# double* %1# i64 %5",6922304,6938688,14,1,0,0,0,0.002392,19206,0
+1482453050372755,"  %53 = getelementptr inbounds double# double* %1# i64 %5",23691328,23707712,14,1,0,0,0,0.002392,19206,0
+1482453050398544,"  %53 = getelementptr inbounds double# double* %1# i64 %5",17498176,17514560,14,1,0,0,0,0.002392,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453050585256,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22687808,22704192,14,1,0,0,0,0.002392,19206,0
+1482453050611334,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27922496,27938880,14,1,0,0,0,0.002392,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453050798912,"  %53 = getelementptr inbounds double# double* %1# i64 %5",19894336,19910720,14,1,0,0,0,0.002392,19206,0
+1482453050825237,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32112704,32129088,14,1,0,0,0,0.002392,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453066167544,"  %48 = getelementptr inbounds double# double* %1# i64 %4",34722112,34722116,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066198043,"  %48 = getelementptr inbounds double# double* %1# i64 %4",26370368,26370372,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066230531,"  %48 = getelementptr inbounds double# double* %1# i64 %4",24625472,24625476,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066262062,"  %48 = getelementptr inbounds double# double* %1# i64 %4",27480384,27480388,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066293890,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20472128,20472132,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066325582,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25112896,25112900,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066358046,"  %48 = getelementptr inbounds double# double* %1# i64 %4",11387200,11387204,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066389355,"  %48 = getelementptr inbounds double# double* %1# i64 %4",10084672,10084676,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066421528,"  %48 = getelementptr inbounds double# double* %1# i64 %4",13050176,13050180,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066452224,"  %48 = getelementptr inbounds double# double* %1# i64 %4",27771200,27771204,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066482904,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18784576,18784580,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066513589,"  %48 = getelementptr inbounds double# double* %1# i64 %4",8917312,8917316,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066548580,"  %48 = getelementptr inbounds double# double* %1# i64 %4",23994688,23994692,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066579146,"  %48 = getelementptr inbounds double# double* %1# i64 %4",39002432,39002436,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066609757,"  %48 = getelementptr inbounds double# double* %1# i64 %4",28565824,28565828,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066640221,"  %48 = getelementptr inbounds double# double* %1# i64 %4",35381568,35381572,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066670748,"  %48 = getelementptr inbounds double# double* %1# i64 %4",10195264,10195268,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066700930,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20857152,20857156,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066731646,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25784640,25784644,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066762238,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30249280,30249284,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066794611,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25805120,25805124,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066824944,"  %48 = getelementptr inbounds double# double* %1# i64 %4",29290816,29290820,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066854956,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32026944,32026948,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066885836,"  %48 = getelementptr inbounds double# double* %1# i64 %4",7487808,7487812,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066916701,"  %48 = getelementptr inbounds double# double* %1# i64 %4",34656576,34656580,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066946968,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22298944,22298948,2,1,0,0,0,5.82440615419e+85,19206,0
+1482453066977335,"  %48 = getelementptr inbounds double# double* %1# i64 %4",35303744,35303748,2,1,0,0,0,5.82440615419e+85,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453072039598,"  %48 = getelementptr inbounds double# double* %1# i64 %4",27578640,27578641,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072073219,"  %48 = getelementptr inbounds double# double* %1# i64 %4",37716240,37716241,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072106309,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18936080,18936081,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072140140,"  %48 = getelementptr inbounds double# double* %1# i64 %4",19833104,19833105,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072172122,"  %48 = getelementptr inbounds double# double* %1# i64 %4",6447376,6447377,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072203506,"  %48 = getelementptr inbounds double# double* %1# i64 %4",24453392,24453393,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072235354,"  %48 = getelementptr inbounds double# double* %1# i64 %4",31478032,31478033,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072268059,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18018576,18018577,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072299369,"  %48 = getelementptr inbounds double# double* %1# i64 %4",23658768,23658769,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072330673,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21713168,21713169,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072362588,"  %48 = getelementptr inbounds double# double* %1# i64 %4",12488976,12488977,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072394435,"  %48 = getelementptr inbounds double# double* %1# i64 %4",38179088,38179089,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072428493,"  %48 = getelementptr inbounds double# double* %1# i64 %4",6525200,6525201,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072461825,"  %48 = getelementptr inbounds double# double* %1# i64 %4",6856976,6856977,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072497257,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18981136,18981137,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072530776,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32104720,32104721,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072564790,"  %48 = getelementptr inbounds double# double* %1# i64 %4",8880400,8880401,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072598220,"  %48 = getelementptr inbounds double# double* %1# i64 %4",37286160,37286161,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072630347,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18903312,18903313,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072662584,"  %48 = getelementptr inbounds double# double* %1# i64 %4",31424784,31424785,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072694868,"  %48 = getelementptr inbounds double# double* %1# i64 %4",10006800,10006801,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072726593,"  %48 = getelementptr inbounds double# double* %1# i64 %4",13492496,13492497,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072763066,"  %48 = getelementptr inbounds double# double* %1# i64 %4",10260752,10260753,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072795445,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18071824,18071825,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072827890,"  %48 = getelementptr inbounds double# double* %1# i64 %4",39862544,39862545,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072862864,"  %48 = getelementptr inbounds double# double* %1# i64 %4",12947728,12947729,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072897551,"  %48 = getelementptr inbounds double# double* %1# i64 %4",29331728,29331729,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072931934,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20332816,20332817,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453072967463,"  %48 = getelementptr inbounds double# double* %1# i64 %4",7168272,7168273,0,1,0,0,0,2.28839864041e+67,19206,0
+1482453073000686,"  %48 = getelementptr inbounds double# double* %1# i64 %4",36360464,36360465,0,1,0,0,0,2.28839864041e+67,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453075094793,"  %53 = getelementptr inbounds double# double* %1# i64 %5",33489296,33489297,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075129971,"  %53 = getelementptr inbounds double# double* %1# i64 %5",27656592,27656593,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075164084,"  %53 = getelementptr inbounds double# double* %1# i64 %5",13517200,13517201,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075201162,"  %53 = getelementptr inbounds double# double* %1# i64 %5",11919760,11919761,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075235859,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15282576,15282577,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075280001,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10846608,10846609,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075315622,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10719632,10719633,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075375618,"  %53 = getelementptr inbounds double# double* %1# i64 %5",37601680,37601681,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075410886,"  %53 = getelementptr inbounds double# double* %1# i64 %5",10473872,10473873,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075444945,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24662416,24662417,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075480286,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9900432,9900433,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075518163,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9867664,9867665,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075553749,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16466320,16466321,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075589081,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15798672,15798673,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075623684,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34054544,34054545,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075658515,"  %53 = getelementptr inbounds double# double* %1# i64 %5",7291280,7291281,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075693820,"  %53 = getelementptr inbounds double# double* %1# i64 %5",19206544,19206545,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075731607,"  %53 = getelementptr inbounds double# double* %1# i64 %5",16335248,16335249,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075770977,"  %53 = getelementptr inbounds double# double* %1# i64 %5",6762896,6762897,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075806730,"  %53 = getelementptr inbounds double# double* %1# i64 %5",11137424,11137425,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075841246,"  %53 = getelementptr inbounds double# double* %1# i64 %5",26907024,26907025,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075875715,"  %53 = getelementptr inbounds double# double* %1# i64 %5",12034448,12034449,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075913729,"  %53 = getelementptr inbounds double# double* %1# i64 %5",13353360,13353361,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075950649,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20226448,20226449,0,1,0,0,0,4.19568831647e+274,19206,0
+1482453075988209,"  %53 = getelementptr inbounds double# double* %1# i64 %5",11121040,11121041,0,1,0,0,0,4.19568831647e+274,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453081141136,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33895136,33895072,6,1,0,0,0,0.01508,19206,0
+1482453081176391,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11256544,11256480,6,1,0,0,0,0.01508,19206,0
+1482453081211002,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19092192,19092128,6,1,0,0,0,0.01508,19206,0
+1482453081245286,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38056672,38056608,6,1,0,0,0,0.01508,19206,0
+1482453081279841,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20288224,20288160,6,1,0,0,0,0.01508,19206,0
+1482453081314333,"  %58 = getelementptr inbounds double# double* %2# i64 %4",36307680,36307616,6,1,0,0,0,0.01508,19206,0
+1482453081352949,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9122528,9122464,6,1,0,0,0,0.01508,19206,0
+1482453081389292,"  %58 = getelementptr inbounds double# double* %2# i64 %4",22872800,22872736,6,1,0,0,0,0.01508,19206,0
+1482453081425123,"  %58 = getelementptr inbounds double# double* %2# i64 %4",16499424,16499360,6,1,0,0,0,0.01508,19206,0
+1482453081459832,"  %58 = getelementptr inbounds double# double* %2# i64 %4",14181088,14181024,6,1,0,0,0,0.01508,19206,0
+1482453081494474,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18252512,18252448,6,1,0,0,0,0.01508,19206,0
+1482453081529250,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15426272,15426208,6,1,0,0,0,0.01508,19206,0
+1482453081567428,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15868640,15868576,6,1,0,0,0,0.01508,19206,0
+1482453081604177,"  %58 = getelementptr inbounds double# double* %2# i64 %4",16900832,16900768,6,1,0,0,0,0.01508,19206,0
+1482453081639620,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13320928,13320864,6,1,0,0,0,0.01508,19206,0
+1482453081674240,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13402848,13402784,6,1,0,0,0,0.01508,19206,0
+1482453081709046,"  %58 = getelementptr inbounds double# double* %2# i64 %4",31867616,31867552,6,1,0,0,0,0.01508,19206,0
+1482453081744863,"  %58 = getelementptr inbounds double# double* %2# i64 %4",33465056,33464992,6,1,0,0,0,0.01508,19206,0
+1482453081787394,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7205600,7205536,6,1,0,0,0,0.01508,19206,0
+1482453081822840,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19219168,19219104,6,1,0,0,0,0.01508,19206,0
+1482453081857740,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9884384,9884320,6,1,0,0,0,0.01508,19206,0
+1482453081892807,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34796256,34796192,6,1,0,0,0,0.01508,19206,0
+1482453081928530,"  %58 = getelementptr inbounds double# double* %2# i64 %4",20402912,20402848,6,1,0,0,0,0.01508,19206,0
+1482453081965436,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37171936,37171872,6,1,0,0,0,0.01508,19206,0
+1482453082002839,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10359520,10359456,6,1,0,0,0,0.01508,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453084091494,"  %58 = getelementptr inbounds double# double* %2# i64 %4",30106448,30105936,9,1,0,0,0,0.002033,19206,0
+1482453084128780,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19460944,19460432,9,1,0,0,0,0.002033,19206,0
+1482453084164315,"  %58 = getelementptr inbounds double# double* %2# i64 %4",28037968,28037456,9,1,0,0,0,0.002033,19206,0
+1482453084199780,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10453840,10453328,9,1,0,0,0,0.002033,19206,0
+1482453084242810,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35599184,35598672,9,1,0,0,0,0.002033,19206,0
+1482453084281282,"  %58 = getelementptr inbounds double# double* %2# i64 %4",16814928,16814416,9,1,0,0,0,0.002033,19206,0
+1482453084318372,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15311696,15311184,9,1,0,0,0,0.002033,19206,0
+1482453084354054,"  %58 = getelementptr inbounds double# double* %2# i64 %4",23380816,23380304,9,1,0,0,0,0.002033,19206,0
+1482453084391019,"  %58 = getelementptr inbounds double# double* %2# i64 %4",26248016,26247504,9,1,0,0,0,0.002033,19206,0
+1482453084429335,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34116432,34115920,9,1,0,0,0,0.002033,19206,0
+1482453084466867,"  %58 = getelementptr inbounds double# double* %2# i64 %4",16773968,16773456,9,1,0,0,0,0.002033,19206,0
+1482453084503719,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9990992,9990480,9,1,0,0,0,0.002033,19206,0
+1482453084539848,"  %58 = getelementptr inbounds double# double* %2# i64 %4",39220048,39219536,9,1,0,0,0,0.002033,19206,0
+1482453084578911,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10650448,10649936,9,1,0,0,0,0.002033,19206,0
+1482453084615832,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38486864,38486352,9,1,0,0,0,0.002033,19206,0
+1482453084652099,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15893328,15892816,9,1,0,0,0,0.002033,19206,0
+1482453084688501,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12182352,12181840,9,1,0,0,0,0.002033,19206,0
+1482453084731106,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7598928,7598416,9,1,0,0,0,0.002033,19206,0
+1482453084768890,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19989328,19988816,9,1,0,0,0,0.002033,19206,0
+1482453084805625,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15422288,15421776,9,1,0,0,0,0.002033,19206,0
+1482453084841780,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18363216,18362704,9,1,0,0,0,0.002033,19206,0
+1482453084879965,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37729104,37728592,9,1,0,0,0,0.002033,19206,0
+1482453084921656,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10715984,10715472,9,1,0,0,0,0.002033,19206,0
+1482453084958444,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34521936,34521424,9,1,0,0,0,0.002033,19206,0
+1482453084996072,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8577872,8577360,9,1,0,0,0,0.002033,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453085207564,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21386064,21394256,13,1,0,0,0,0.05996,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453085417424,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35783504,35791696,13,1,0,0,0,0.05996,19206,0
+1482453085454990,"  %58 = getelementptr inbounds double# double* %2# i64 %4",10732368,10740560,13,1,0,0,0,0.05996,19206,0
+1482453085491662,"  %58 = getelementptr inbounds double# double* %2# i64 %4",31380304,31388496,13,1,0,0,0,0.05996,19206,0
+1482453085528451,"  %58 = getelementptr inbounds double# double* %2# i64 %4",13980496,13988688,13,1,0,0,0,0.05996,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453085745120,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29803344,29811536,13,1,0,0,0,0.05996,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453085955834,"  %58 = getelementptr inbounds double# double* %2# i64 %4",15811408,15819600,13,1,0,0,0,0.05996,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453086168544,"  %48 = getelementptr inbounds double# double* %1# i64 %4",38142240,38175008,15,1,0,0,0,0.011835,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453086378854,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30236960,30269728,15,1,0,0,0,0.011835,19206,0
+1482453086416851,"  %48 = getelementptr inbounds double# double* %1# i64 %4",39280928,39313696,15,1,0,0,0,0.011835,19206,0
+1482453086454112,"  %48 = getelementptr inbounds double# double* %1# i64 %4",37757216,37789984,15,1,0,0,0,0.011835,19206,0
+1482453086493719,"  %48 = getelementptr inbounds double# double* %1# i64 %4",19403040,19435808,15,1,0,0,0,0.011835,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453086705106,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21057824,21090592,15,1,0,0,0,0.011835,19206,0
+1482453086743590,"  %48 = getelementptr inbounds double# double* %1# i64 %4",15077664,15110432,15,1,0,0,0,0.011835,19206,0
+1482453086782066,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22044960,22077728,15,1,0,0,0,0.011835,19206,0
+1482453086823978,"  %48 = getelementptr inbounds double# double* %1# i64 %4",11477280,11510048,15,1,0,0,0,0.011835,19206,0
+1482453086862081,"  %48 = getelementptr inbounds double# double* %1# i64 %4",9646368,9679136,15,1,0,0,0,0.011835,19206,0
+1482453086900076,"  %48 = getelementptr inbounds double# double* %1# i64 %4",19403040,19435808,15,1,0,0,0,0.011835,19206,0
+1482453086937768,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22888736,22921504,15,1,0,0,0,0.011835,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453089950643,"  %45 = getelementptr inbounds double# double* %1# i64 %4",23621968,23753040,17,1,0,0,0,0.031566,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453092086740,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8127184,8127186,1,1,0,0,0,0.027454,19206,0
+1482453092126128,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38605520,38605522,1,1,0,0,0,0.027454,19206,0
+1482453092165066,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12112592,12112594,1,1,0,0,0,0.027454,19206,0
+1482453092206248,"  %58 = getelementptr inbounds double# double* %2# i64 %4",24101584,24101586,1,1,0,0,0,0.027454,19206,0
+1482453092246864,"  %58 = getelementptr inbounds double# double* %2# i64 %4",6423248,6423250,1,1,0,0,0,0.027454,19206,0
+1482453092286402,"  %58 = getelementptr inbounds double# double* %2# i64 %4",22528720,22528722,1,1,0,0,0,0.027454,19206,0
+1482453092329300,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38179536,38179538,1,1,0,0,0,0.027454,19206,0
+1482453092369483,"  %58 = getelementptr inbounds double# double* %2# i64 %4",29983440,29983442,1,1,0,0,0,0.027454,19206,0
+1482453092409571,"  %58 = getelementptr inbounds double# double* %2# i64 %4",27763408,27763410,1,1,0,0,0,0.027454,19206,0
+1482453092473287,"  %58 = getelementptr inbounds double# double* %2# i64 %4",24281808,24281810,1,1,0,0,0,0.027454,19206,0
+1482453092514990,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35160784,35160786,1,1,0,0,0,0.027454,19206,0
+1482453092554987,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9732816,9732818,1,1,0,0,0,0.027454,19206,0
+1482453092597662,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8397520,8397522,1,1,0,0,0,0.027454,19206,0
+1482453092638420,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21324496,21324498,1,1,0,0,0,0.027454,19206,0
+1482453092678395,"  %58 = getelementptr inbounds double# double* %2# i64 %4",12747472,12747474,1,1,0,0,0,0.027454,19206,0
+1482453092720743,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17007312,17007314,1,1,0,0,0,0.027454,19206,0
+1482453092761800,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38294224,38294226,1,1,0,0,0,0.027454,19206,0
+1482453092802596,"  %58 = getelementptr inbounds double# double* %2# i64 %4",14529232,14529234,1,1,0,0,0,0.027454,19206,0
+1482453092844367,"  %58 = getelementptr inbounds double# double* %2# i64 %4",36045520,36045522,1,1,0,0,0,0.027454,19206,0
+1482453092885416,"  %58 = getelementptr inbounds double# double* %2# i64 %4",39576272,39576274,1,1,0,0,0,0.027454,19206,0
+1482453092925748,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7729872,7729874,1,1,0,0,0,0.027454,19206,0
+1482453092969376,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11449040,11449042,1,1,0,0,0,0.027454,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453100061908,"  %48 = getelementptr inbounds double# double* %1# i64 %4",39301552,39301560,3,1,0,0,0,0.000629,19206,0
+1482453100104494,"  %48 = getelementptr inbounds double# double* %1# i64 %4",7590320,7590328,3,1,0,0,0,0.000629,19206,0
+1482453100148733,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30323120,30323128,3,1,0,0,0,0.000629,19206,0
+1482453100190553,"  %48 = getelementptr inbounds double# double* %1# i64 %4",12403120,12403128,3,1,0,0,0,0.000629,19206,0
+1482453100234959,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22290864,22290872,3,1,0,0,0,0.000629,19206,0
+1482453100277479,"  %48 = getelementptr inbounds double# double* %1# i64 %4",13304240,13304248,3,1,0,0,0,0.000629,19206,0
+1482453100319657,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22385072,22385080,3,1,0,0,0,0.000629,19206,0
+1482453100366920,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21107120,21107128,3,1,0,0,0,0.000629,19206,0
+1482453100409129,"  %48 = getelementptr inbounds double# double* %1# i64 %4",36798896,36798904,3,1,0,0,0,0.000629,19206,0
+1482453100451336,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32727472,32727480,3,1,0,0,0,0.000629,19206,0
+1482453100493312,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20369840,20369848,3,1,0,0,0,0.000629,19206,0
+1482453100540372,"  %48 = getelementptr inbounds double# double* %1# i64 %4",23499184,23499192,3,1,0,0,0,0.000629,19206,0
+1482453100583042,"  %48 = getelementptr inbounds double# double* %1# i64 %4",17715632,17715640,3,1,0,0,0,0.000629,19206,0
+1482453100634105,"  %48 = getelementptr inbounds double# double* %1# i64 %4",12313008,12313016,3,1,0,0,0,0.000629,19206,0
+1482453100681294,"  %48 = getelementptr inbounds double# double* %1# i64 %4",34345392,34345400,3,1,0,0,0,0.000629,19206,0
+1482453100723899,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21942704,21942712,3,1,0,0,0,0.000629,19206,0
+1482453100768337,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22544816,22544824,3,1,0,0,0,0.000629,19206,0
+1482453100816499,"  %48 = getelementptr inbounds double# double* %1# i64 %4",17199536,17199544,3,1,0,0,0,0.000629,19206,0
+1482453100859352,"  %48 = getelementptr inbounds double# double* %1# i64 %4",17285552,17285560,3,1,0,0,0,0.000629,19206,0
+1482453100904591,"  %48 = getelementptr inbounds double# double* %1# i64 %4",33907120,33907128,3,1,0,0,0,0.000629,19206,0
+1482453100947494,"  %48 = getelementptr inbounds double# double* %1# i64 %4",14356912,14356920,3,1,0,0,0,0.000629,19206,0
+1482453100994646,"  %48 = getelementptr inbounds double# double* %1# i64 %4",10035632,10035640,3,1,0,0,0,0.000629,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453109105700,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25866464,25866432,5,1,0,0,0,0.00437,19206,0
+1482453109152624,"  %48 = getelementptr inbounds double# double* %1# i64 %4",33362144,33362112,5,1,0,0,0,0.00437,19206,0
+1482453109197999,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21582048,21582016,5,1,0,0,0,0.00437,19206,0
+1482453109245355,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20242656,20242624,5,1,0,0,0,0.00437,19206,0
+1482453109291034,"  %48 = getelementptr inbounds double# double* %1# i64 %4",35950816,35950784,5,1,0,0,0,0.00437,19206,0
+1482453109338798,"  %48 = getelementptr inbounds double# double* %1# i64 %4",36282592,36282560,5,1,0,0,0,0.00437,19206,0
+1482453109384257,"  %48 = getelementptr inbounds double# double* %1# i64 %4",28635360,28635328,5,1,0,0,0,0.00437,19206,0
+1482453109429205,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22229216,22229184,5,1,0,0,0,0.00437,19206,0
+1482453109474364,"  %48 = getelementptr inbounds double# double* %1# i64 %4",24236256,24236224,5,1,0,0,0,0.00437,19206,0
+1482453109519090,"  %48 = getelementptr inbounds double# double* %1# i64 %4",36516064,36516032,5,1,0,0,0,0.00437,19206,0
+1482453109564971,"  %48 = getelementptr inbounds double# double* %1# i64 %4",8122592,8122560,5,1,0,0,0,0.00437,19206,0
+1482453109611076,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30601440,30601408,5,1,0,0,0,0.00437,19206,0
+1482453109656596,"  %48 = getelementptr inbounds double# double* %1# i64 %4",6922464,6922432,5,1,0,0,0,0.00437,19206,0
+1482453109701643,"  %48 = getelementptr inbounds double# double* %1# i64 %4",11976928,11976896,5,1,0,0,0,0.00437,19206,0
+1482453109746864,"  %48 = getelementptr inbounds double# double* %1# i64 %4",7745760,7745728,5,1,0,0,0,0.00437,19206,0
+1482453109792237,"  %48 = getelementptr inbounds double# double* %1# i64 %4",19554528,19554496,5,1,0,0,0,0.00437,19206,0
+1482453109843267,"  %48 = getelementptr inbounds double# double* %1# i64 %4",29327584,29327552,5,1,0,0,0,0.00437,19206,0
+1482453109892967,"  %48 = getelementptr inbounds double# double* %1# i64 %4",33730784,33730752,5,1,0,0,0,0.00437,19206,0
+1482453109941192,"  %48 = getelementptr inbounds double# double* %1# i64 %4",33239264,33239232,5,1,0,0,0,0.00437,19206,0
+1482453109987646,"  %48 = getelementptr inbounds double# double* %1# i64 %4",13422816,13422784,5,1,0,0,0,0.00437,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453112203559,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20783584,20914656,17,1,0,0,0,0.02053,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453112791302,"  %53 = getelementptr inbounds double# double* %1# i64 %5",34107872,34238944,17,1,0,0,0,0.02053,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453113022718,"  %48 = getelementptr inbounds double# double* %1# i64 %4",31957120,31959168,11,1,0,0,0,0.004741,19206,0
+1482453113072383,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32346240,32348288,11,1,0,0,0,0.004741,19206,0
+1482453113119669,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32297088,32299136,11,1,0,0,0,0.004741,19206,0
+1482453113166976,"  %48 = getelementptr inbounds double# double* %1# i64 %4",6414464,6416512,11,1,0,0,0,0.004741,19206,0
+1482453113213866,"  %48 = getelementptr inbounds double# double* %1# i64 %4",16371840,16373888,11,1,0,0,0,0.004741,19206,0
+1482453113260479,"  %48 = getelementptr inbounds double# double* %1# i64 %4",31682688,31684736,11,1,0,0,0,0.004741,19206,0
+1482453113307540,"  %48 = getelementptr inbounds double# double* %1# i64 %4",36126848,36128896,11,1,0,0,0,0.004741,19206,0
+1482453113354398,"  %48 = getelementptr inbounds double# double* %1# i64 %4",14176384,14178432,11,1,0,0,0,0.004741,19206,0
+1482453113402756,"  %48 = getelementptr inbounds double# double* %1# i64 %4",14590080,14592128,11,1,0,0,0,0.004741,19206,0
+1482453113451297,"  %48 = getelementptr inbounds double# double* %1# i64 %4",20967552,20969600,11,1,0,0,0,0.004741,19206,0
+1482453113498656,"  %48 = getelementptr inbounds double# double* %1# i64 %4",9257088,9259136,11,1,0,0,0,0.004741,19206,0
+1482453113547666,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32428160,32430208,11,1,0,0,0,0.004741,19206,0
+1482453113598354,"  %48 = getelementptr inbounds double# double* %1# i64 %4",24817792,24819840,11,1,0,0,0,0.004741,19206,0
+1482453113645689,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18378880,18380928,11,1,0,0,0,0.004741,19206,0
+1482453113693221,"  %48 = getelementptr inbounds double# double* %1# i64 %4",21434496,21436544,11,1,0,0,0,0.004741,19206,0
+1482453113740666,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30683264,30685312,11,1,0,0,0,0.004741,19206,0
+1482453113788506,"  %48 = getelementptr inbounds double# double* %1# i64 %4",23830656,23832704,11,1,0,0,0,0.004741,19206,0
+1482453113838356,"  %48 = getelementptr inbounds double# double* %1# i64 %4",31621248,31623296,11,1,0,0,0,0.004741,19206,0
+1482453113886167,"  %48 = getelementptr inbounds double# double* %1# i64 %4",9146496,9148544,11,1,0,0,0,0.004741,19206,0
+1482453113935009,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30228608,30230656,11,1,0,0,0,0.004741,19206,0
+1482453113983434,"  %48 = getelementptr inbounds double# double* %1# i64 %4",14037120,14039168,11,1,0,0,0,0.004741,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453121167415,"  %53 = getelementptr inbounds double# double* %1# i64 %5",35021168,35021176,3,1,0,0,0,0.000478,19206,0
+1482453121217323,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9814384,9814392,3,1,0,0,0,0.000478,19206,0
+1482453121269435,"  %53 = getelementptr inbounds double# double* %1# i64 %5",8814960,8814968,3,1,0,0,0,0.000478,19206,0
+1482453121319971,"  %53 = getelementptr inbounds double# double* %1# i64 %5",6885744,6885752,3,1,0,0,0,0.000478,19206,0
+1482453121369996,"  %53 = getelementptr inbounds double# double* %1# i64 %5",7434608,7434616,3,1,0,0,0,0.000478,19206,0
+1482453121421289,"  %53 = getelementptr inbounds double# double* %1# i64 %5",22704496,22704504,3,1,0,0,0,0.000478,19206,0
+1482453121472537,"  %53 = getelementptr inbounds double# double* %1# i64 %5",20230512,20230520,3,1,0,0,0,0.000478,19206,0
+1482453121523315,"  %53 = getelementptr inbounds double# double* %1# i64 %5",35553648,35553656,3,1,0,0,0,0.000478,19206,0
+1482453121575243,"  %53 = getelementptr inbounds double# double* %1# i64 %5",9748848,9748856,3,1,0,0,0,0.000478,19206,0
+1482453121626804,"  %53 = getelementptr inbounds double# double* %1# i64 %5",32883056,32883064,3,1,0,0,0,0.000478,19206,0
+1482453121677555,"  %53 = getelementptr inbounds double# double* %1# i64 %5",15679856,15679864,3,1,0,0,0,0.000478,19206,0
+1482453121727836,"  %53 = getelementptr inbounds double# double* %1# i64 %5",18473328,18473336,3,1,0,0,0,0.000478,19206,0
+1482453121779959,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31805808,31805816,3,1,0,0,0,0.000478,19206,0
+1482453121832484,"  %53 = getelementptr inbounds double# double* %1# i64 %5",7004528,7004536,3,1,0,0,0,0.000478,19206,0
+1482453121886164,"  %53 = getelementptr inbounds double# double* %1# i64 %5",31920496,31920504,3,1,0,0,0,0.000478,19206,0
+1482453121938034,"  %53 = getelementptr inbounds double# double* %1# i64 %5",21999984,21999992,3,1,0,0,0,0.000478,19206,0
+1482453121991079,"  %53 = getelementptr inbounds double# double* %1# i64 %5",24523120,24523128,3,1,0,0,0,0.000478,19206,0
+1482453122045309,"  %57 = getelementptr inbounds double# double* %2# i64 %4",38642464,38658848,14,1,0,0,0,1.00000000003e-06,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453122472756,"  %57 = getelementptr inbounds double# double* %2# i64 %4",38245152,38261536,14,1,0,0,0,1.00000000003e-06,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453122710528,"  %57 = getelementptr inbounds double# double* %2# i64 %4",34243360,34259744,14,1,0,0,0,1.00000000003e-06,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453122949690,"  %57 = getelementptr inbounds double# double* %2# i64 %4",17998624,18015008,14,1,0,0,0,1.00000000003e-06,19206,0
+1482453123002392,"  %57 = getelementptr inbounds double# double* %2# i64 %4",36115232,36131616,14,1,0,0,0,1.00000000003e-06,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453133164367,"  %57 = getelementptr inbounds double# double* %2# i64 %4",39916448,39916452,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133220331,"  %57 = getelementptr inbounds double# double* %2# i64 %4",22905760,22905764,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133279107,"  %57 = getelementptr inbounds double# double* %2# i64 %4",27128736,27128740,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133350360,"  %57 = getelementptr inbounds double# double* %2# i64 %4",29262752,29262756,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133411078,"  %57 = getelementptr inbounds double# double* %2# i64 %4",35427232,35427236,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133471069,"  %57 = getelementptr inbounds double# double* %2# i64 %4",33399712,33399716,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133529637,"  %57 = getelementptr inbounds double# double* %2# i64 %4",39781280,39781284,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133587787,"  %57 = getelementptr inbounds double# double* %2# i64 %4",9655200,9655204,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133645237,"  %57 = getelementptr inbounds double# double* %2# i64 %4",30913440,30913444,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133700912,"  %57 = getelementptr inbounds double# double* %2# i64 %4",7701408,7701412,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133756183,"  %57 = getelementptr inbounds double# double* %2# i64 %4",18191264,18191268,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133814872,"  %57 = getelementptr inbounds double# double* %2# i64 %4",11809696,11809700,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133876228,"  %57 = getelementptr inbounds double# double* %2# i64 %4",23720864,23720868,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453133937391,"  %57 = getelementptr inbounds double# double* %2# i64 %4",17752992,17752996,2,1,0,0,0,3.36544160099e+129,19206,0
+1482453134001958,"  %57 = getelementptr inbounds double# double* %2# i64 %4",21296032,21296036,2,1,0,0,0,3.36544160099e+129,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453134250924,"  %48 = getelementptr inbounds double# double* %1# i64 %4",18129264,18260336,17,1,0,0,0,0.022212,19206,0
+1482453134307069,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25432432,25563504,17,1,0,0,0,0.022212,19206,0
+1482453134364810,"  %48 = getelementptr inbounds double# double* %1# i64 %4",16806256,16937328,17,1,0,0,0,0.022212,19206,0
+1482453134422677,"  %48 = getelementptr inbounds double# double* %1# i64 %4",39125360,39256432,17,1,0,0,0,0.022212,19206,0
+1482453134478973,"  %48 = getelementptr inbounds double# double* %1# i64 %4",22593904,22724976,17,1,0,0,0,0.022212,19206,0
+1482453134535417,"  %48 = getelementptr inbounds double# double* %1# i64 %4",30183792,30314864,17,1,0,0,0,0.022212,19206,0
+1482453134590980,"  %48 = getelementptr inbounds double# double* %1# i64 %4",32067952,32199024,17,1,0,0,0,0.022212,19206,0
+1482453134649682,"  %48 = getelementptr inbounds double# double* %1# i64 %4",25805168,25936240,17,1,0,0,0,0.022212,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453134899874,"  %48 = getelementptr inbounds double# double* %1# i64 %4",7676272,7807344,17,1,0,0,0,0.022212,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453138029946,"  %58 = getelementptr inbounds double# double* %2# i64 %4",19256096,19258144,11,1,0,0,0,0.129547,19206,0
+1482453138088194,"  %58 = getelementptr inbounds double# double* %2# i64 %4",16479008,16481056,11,1,0,0,0,0.129547,19206,0
+1482453138145609,"  %58 = getelementptr inbounds double# double* %2# i64 %4",17523488,17525536,11,1,0,0,0,0.129547,19206,0
+1482453138202670,"  %58 = getelementptr inbounds double# double* %2# i64 %4",34194208,34196256,11,1,0,0,0,0.129547,19206,0
+1482453138260662,"  %58 = getelementptr inbounds double# double* %2# i64 %4",25989920,25991968,11,1,0,0,0,0.129547,19206,0
+1482453138324696,"  %58 = getelementptr inbounds double# double* %2# i64 %4",8717088,8719136,11,1,0,0,0,0.129547,19206,0
+1482453138383659,"  %58 = getelementptr inbounds double# double* %2# i64 %4",6427424,6429472,11,1,0,0,0,0.129547,19206,0
+1482453138442056,"  %58 = getelementptr inbounds double# double* %2# i64 %4",11498272,11500320,11,1,0,0,0,0.129547,19206,0
+1482453138503130,"  %58 = getelementptr inbounds double# double* %2# i64 %4",7238432,7240480,11,1,0,0,0,0.129547,19206,0
+1482453138563407,"  %58 = getelementptr inbounds double# double* %2# i64 %4",35025696,35027744,11,1,0,0,0,0.129547,19206,0
+1482453138623753,"  %58 = getelementptr inbounds double# double* %2# i64 %4",31318816,31320864,11,1,0,0,0,0.129547,19206,0
+1482453138684727,"  %58 = getelementptr inbounds double# double* %2# i64 %4",21512992,21515040,11,1,0,0,0,0.129547,19206,0
+1482453138745821,"  %58 = getelementptr inbounds double# double* %2# i64 %4",31392544,31394592,11,1,0,0,0,0.129547,19206,0
+1482453138806159,"  %58 = getelementptr inbounds double# double* %2# i64 %4",38851360,38853408,11,1,0,0,0,0.129547,19206,0
+1482453138866855,"  %58 = getelementptr inbounds double# double* %2# i64 %4",37761824,37763872,11,1,0,0,0,0.129547,19206,0
+1482453138927643,"  %58 = getelementptr inbounds double# double* %2# i64 %4",9069344,9071392,11,1,0,0,0,0.129547,19206,0
+1482453138989372,"  %58 = getelementptr inbounds double# double* %2# i64 %4",18977568,18979616,11,1,0,0,0,0.129547,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453141183437,"  %53 = getelementptr inbounds double# double* %1# i64 %5",12464224,12480608,14,1,0,0,0,0.003115,19206,0
+1482453141244646,"  %53 = getelementptr inbounds double# double* %1# i64 %5",11178080,11194464,14,1,0,0,0,0.003115,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453142286628,"  %57 = getelementptr inbounds double# double* %2# i64 %4",21447408,21480176,15,0,1,0,0,0.0,19206,0
+1482453142349467,"  %57 = getelementptr inbounds double# double* %2# i64 %4",39285488,39318256,15,0,1,0,0,0.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453142606552,"  %57 = getelementptr inbounds double# double* %2# i64 %4",37647088,37679856,15,0,1,0,0,0.0,19206,0
+1482453142673113,"  %57 = getelementptr inbounds double# double* %2# i64 %4",16913136,16945904,15,0,1,0,0,0.0,19206,0
+1482453142732911,"  %57 = getelementptr inbounds double# double* %2# i64 %4",18879216,18911984,15,0,1,0,0,0.0,19206,0
+1482453142793026,"  %57 = getelementptr inbounds double# double* %2# i64 %4",12542704,12575472,15,0,1,0,0,0.0,19206,0
+1482453142854911,"  %57 = getelementptr inbounds double# double* %2# i64 %4",38998768,39031536,15,0,1,0,0,0.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453147037870,"  %57 = getelementptr inbounds double# double* %2# i64 %4",18272864,18272352,9,1,0,0,0,0.002681,19206,0
+1482453147102625,"  %57 = getelementptr inbounds double# double* %2# i64 %4",30274144,30273632,9,1,0,0,0,0.002681,19206,0
+1482453147163971,"  %57 = getelementptr inbounds double# double* %2# i64 %4",8962656,8962144,9,1,0,0,0,0.002681,19206,0
+1482453147225328,"  %57 = getelementptr inbounds double# double* %2# i64 %4",27370080,27369568,9,1,0,0,0,0.002681,19206,0
+1482453147287508,"  %57 = getelementptr inbounds double# double* %2# i64 %4",18047584,18047072,9,1,0,0,0,0.002681,19206,0
+1482453147348854,"  %57 = getelementptr inbounds double# double* %2# i64 %4",31715936,31715424,9,1,0,0,0,0.002681,19206,0
+1482453147412064,"  %57 = getelementptr inbounds double# double* %2# i64 %4",33022560,33022048,9,1,0,0,0,0.002681,19206,0
+1482453147485573,"  %57 = getelementptr inbounds double# double* %2# i64 %4",39379552,39379040,9,1,0,0,0,0.002681,19206,0
+1482453147552759,"  %57 = getelementptr inbounds double# double* %2# i64 %4",24597088,24596576,9,1,0,0,0,0.002681,19206,0
+1482453147614296,"  %57 = getelementptr inbounds double# double* %2# i64 %4",19329632,19329120,9,1,0,0,0,0.002681,19206,0
+1482453147676629,"  %57 = getelementptr inbounds double# double* %2# i64 %4",37896800,37896288,9,1,0,0,0,0.002681,19206,0
+1482453147738738,"  %57 = getelementptr inbounds double# double* %2# i64 %4",27779680,27779168,9,1,0,0,0,0.002681,19206,0
+1482453147800641,"  %57 = getelementptr inbounds double# double* %2# i64 %4",30667360,30666848,9,1,0,0,0,0.002681,19206,0
+1482453147863506,"  %57 = getelementptr inbounds double# double* %2# i64 %4",16274016,16273504,9,1,0,0,0,0.002681,19206,0
+1482453147925389,"  %57 = getelementptr inbounds double# double* %2# i64 %4",7516768,7516256,9,1,0,0,0,0.002681,19206,0
+1482453147987867,"  %57 = getelementptr inbounds double# double* %2# i64 %4",18141792,18141280,9,1,0,0,0,0.002681,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+1482453162047243,"  %45 = getelementptr inbounds double# double* %1# i64 %4",18235872,18236384,9,1,0,0,0,0.000866,19206,0
+1482453162114970,"  %45 = getelementptr inbounds double# double* %1# i64 %4",34271712,34272224,9,1,0,0,0,0.000866,19206,0
+1482453162183251,"  %45 = getelementptr inbounds double# double* %1# i64 %4",17261024,17261536,9,1,0,0,0,0.000866,19206,0
+1482453162250437,"  %45 = getelementptr inbounds double# double* %1# i64 %4",33837536,33838048,9,1,0,0,0,0.000866,19206,0
+1482453162317128,"  %45 = getelementptr inbounds double# double* %1# i64 %4",22344160,22344672,9,1,0,0,0,0.000866,19206,0
+1482453162384082,"  %45 = getelementptr inbounds double# double* %1# i64 %4",15548896,15549408,9,1,0,0,0,0.000866,19206,0
+1482453162453186,"  %45 = getelementptr inbounds double# double* %1# i64 %4",25264608,25265120,9,1,0,0,0,0.000866,19206,0
+1482453162520777,"  %45 = getelementptr inbounds double# double* %1# i64 %4",11981280,11981792,9,1,0,0,0,0.000866,19206,0
+1482453162588564,"  %45 = getelementptr inbounds double# double* %1# i64 %4",31736288,31736800,9,1,0,0,0,0.000866,19206,0
+1482453162657158,"  %45 = getelementptr inbounds double# double* %1# i64 %4",29295072,29295584,9,1,0,0,0,0.000866,19206,0
+1482453162724189,"  %45 = getelementptr inbounds double# double* %1# i64 %4",33685984,33686496,9,1,0,0,0,0.000866,19206,0
+1482453162792629,"  %45 = getelementptr inbounds double# double* %1# i64 %4",23454176,23454688,9,1,0,0,0,0.000866,19206,0
+1482453162860459,"  %45 = getelementptr inbounds double# double* %1# i64 %4",6812128,6812640,9,1,0,0,0,0.000866,19206,0
+1482453162928813,"  %45 = getelementptr inbounds double# double* %1# i64 %4",39481824,39482336,9,1,0,0,0,0.000866,19206,0
+1482453162997139,"  %45 = getelementptr inbounds double# double* %1# i64 %4",7987680,7988192,9,1,0,0,0,0.000866,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0
+Not Available,,,,,0,0,1,0,1.0,19206,0

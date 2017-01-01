@@ -27,6 +27,9 @@
 using namespace llvm;
 using namespace std;
 
+extern "C" LLVMContextRef LLVMGetGlobalContext(void);
+
+
 static cl::opt<string> fn("fn", cl::desc("Name of the function to be targeted"),
 			  cl::value_desc("func1 func2 func3"), cl::init(""),
 			  cl::ValueRequired);
@@ -71,7 +74,7 @@ Instruction* getInstrByVal(Value* val, Function* fn);
 set<Value*> getArgList(Function *fn);
 bool isBaseAdrInArgLst(GetElementPtrInst* gep);
 bool checkBaseAdrDef(GetElementPtrInst* gep, set<Value*> &arglist);
-Constant* getStringAsConst(string strname, Module *M);
+Constant* getStringAsConst(string strname, Module *M, Instruction* instr);
 Constant* getInstrNameAsConst(Value* instr, string prefix, Module *M);
 bool setDetectFlag(Value* op1, Value* op2, unsigned idx, Instruction* instrBefore, Module *M);
 bool setDetectFlagByIdx(Value* newval, Instruction* instrBefore,unsigned idx, Module *M);
@@ -281,16 +284,18 @@ bool checkBaseAdrDef(GetElementPtrInst* gep, set<Value*> &arglist){
   return false;
 }
 
-Constant* getStringAsConst(string strname, Module *M){  
+Constant* getStringAsConst(string strname, Module *M, Instruction* instr){  
   Constant *strnameConst =
-    ConstantDataArray::getString(getGlobalContext(),strname,true);
+    //ConstantDataArray::getString(getGlobalContext(),strname,true);
+    ConstantDataArray::getString(instr->getType()->getContext(),strname,true);
   
   GlobalVariable *strnameGlobal =
     new GlobalVariable(*M,strnameConst->getType(),true,GlobalValue::InternalLinkage,
 		       strnameConst,"strname");
   
   Constant *nullvalue =
-    Constant::getNullValue(IntegerType::getInt32Ty(getGlobalContext()));
+    //Constant::getNullValue(IntegerType::getInt32Ty(getGlobalContext()));
+    Constant::getNullValue(IntegerType::getInt32Ty(strnameGlobal->getType()->getContext()));
   
   vector<Constant*> gepParams;
   gepParams.push_back(nullvalue);
@@ -304,7 +309,8 @@ Constant* getStringAsConst(string strname, Module *M){
 Constant* getInstrNameAsConst(Value* instr, string prefix, Module *M){
   string instrString = instr->getName().str()+prefix+flname;
   errs() << "\nINFO: file name: " << instrString;
-  Constant *instrName = ConstantDataArray::getString(getGlobalContext(),
+  //Constant *instrName = ConstantDataArray::getString(getGlobalContext(),
+  Constant *instrName = ConstantDataArray::getString(instr->getType()->getContext(),
 						     instrString,
 						     true);
   GlobalVariable *instrNameGlobal = new GlobalVariable(*M,
@@ -314,7 +320,8 @@ Constant* getInstrNameAsConst(Value* instr, string prefix, Module *M){
 						       instrName,
 						       "instrname");
   Constant *nullvalue =
-    Constant::getNullValue(IntegerType::getInt32Ty(getGlobalContext()));  
+    //Constant::getNullValue(IntegerType::getInt32Ty(getGlobalContext()));  
+    Constant::getNullValue(IntegerType::getInt32Ty(instrName->getType()->getContext()));  
   vector<Constant*> gepParams;
   gepParams.push_back(nullvalue);
   gepParams.push_back(nullvalue);
@@ -327,7 +334,8 @@ Constant* getInstrNameAsConst(Value* instr, string prefix, Module *M){
 
 bool setDetectFlagByIdx(Value* newval, Instruction* instrBefore,
 		   unsigned idx, Module *M){  
-  Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  //Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  Type* int64ty=Type::getIntNTy(instrBefore->getType()->getContext(),64);
   Value* detectGlbVarRef=getGlobalVarByName(M,detectVarName);  
   Value* newdetectVal= new ZExtInst(newval,int64ty,"newdetval",instrBefore);
  LoadInst* olddetectVal=new LoadInst(detectGlbVarRef,"ldolddetval",instrBefore);
@@ -352,7 +360,8 @@ bool setDetectFlagByIdx(Value* newval, Instruction* instrBefore,
 
 bool setDetectFlag(Value* op1, Value* op2, unsigned idx,
 		   Instruction* instrBefore, Module *M){  
-  Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  //Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  Type* int64ty=Type::getIntNTy(instrBefore->getType()->getContext(),64);
   Value* detectGlbVarRef=getGlobalVarByName(M,detectVarName);  
   CmpInst* cmpops=CmpInst::Create(Instruction::ICmp,CmpInst::ICMP_NE,
 				  op1,op2,"cmpopdet",instrBefore);
@@ -450,12 +459,13 @@ void fillGEPToIdxLst(GetElementPtrInst* gep, Module* M){
 void insertProfilers(Value* relid, unsigned gepid, Instruction* instrbefore, Module *M){
   if(fnPsgProfile && mode.compare("profile")==0){
     vector<Value*> arglist;
-    Type* int64y=Type::getIntNTy(getGlobalContext(),64);
+    //Type* int64y=Type::getIntNTy(getGlobalContext(),64);
+    Type* int64y=Type::getIntNTy(instrbefore->getType()->getContext(),64);
     Constant* gepidval=ConstantInt::get(int64y,gepid,false);	      
     arglist.push_back(gepidval);
     arglist.push_back(relid);
     Constant* filename=
-      getStringAsConst("relid"+flname+"gepid_"+toString(gepid)+".txt",M);
+      getStringAsConst("relid"+flname+"gepid_"+toString(gepid)+".txt",M, instrbefore);
     arglist.push_back(filename);	    
     CallInst::Create(fnPsgProfile,arglist,"",instrbefore);
   }      
@@ -470,8 +480,10 @@ bool transformGrp(BasicBlock* tbb, Value *tbase,Module* M){
   Instruction* firstNonPHI=entryBB->getFirstNonPHI();
   Instruction* firstNonPHIPBB=parentBB->getFirstNonPHI();
   Type *ty=gepPtrOp->getType();
-  Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
-  Type* int32ty=Type::getIntNTy(getGlobalContext(),32);
+  //Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  //Type* int32ty=Type::getIntNTy(getGlobalContext(),32);
+  Type* int64ty=Type::getIntNTy(gepPtrOp->getType()->getContext(),64);
+  Type* int32ty=Type::getIntNTy(gepPtrOp->getType()->getContext(),32);
 
   if(!hasEntryInfo(parentBB,gepPtrOp)){
     errs() << "\nFATAL ERROR: Missing entry info for one of the basic block.\n";
@@ -555,8 +567,10 @@ bool transform(GetElementPtrInst* gep, Module* M){
   Instruction* firstNonPHIPBB=parentBB->getFirstNonPHI();
   Value* gepPtrOp=gep->getPointerOperand();
   Type *ty=gepPtrOp->getType();
-  Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
-  Type* int32ty=Type::getIntNTy(getGlobalContext(),32);	
+  // Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  // Type* int32ty=Type::getIntNTy(getGlobalContext(),32);	
+  Type* int64ty=Type::getIntNTy(gepPtrOp->getType()->getContext(),64);
+  Type* int32ty=Type::getIntNTy(gepPtrOp->getType()->getContext(),32);	
 
   if(!hasEntryInfo(parentBB,gepPtrOp)){
     errs() << "\nFATAL ERROR: Missing entry info for one of the basic block.\n";
@@ -616,7 +630,8 @@ void processTransform(Module *M){
 
 bool insertDetectors(Function* fn, Module* M){
   set<BasicBlock*> bblst=getExitBBs(fn);
-  Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  //Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+  Type* int64ty=Type::getIntNTy(fn->getType()->getContext(),64);
   set<BasicBlock*>::iterator bbi;
   set<Value*>::iterator si;
   for(bbi=bblst.begin();bbi!=bblst.end();++bbi){
@@ -779,7 +794,8 @@ void populateEntryGEPInfo(Function* fn, Module *M, unsigned pass){
       if(bfs[i]==entryBB) continue;
       BasicBlock* bb=bfs[i];
       unsigned idxCount=1;
-      Type* int64ty=Type::getInt64Ty(getGlobalContext());      
+      //Type* int64ty=Type::getInt64Ty(getGlobalContext());      
+      Type* int64ty=Type::getInt64Ty(fn->getType()->getContext());      
       Instruction* fnonphi=bb->getFirstNonPHI();
       vector<BasicBlock*> predbblst;
       for (pred_iterator pi=pred_begin(bb),pe=pred_end(bb); pi!=pe;++pi){
@@ -1030,7 +1046,8 @@ void populateLInvInfo(Function *fn){
       //getFirstNonPHI();
     vector<Value*> relidcmplst;
     vector<vector<long long> > linvlst=t1linv[gepid];
-    Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+    //Type* int64ty=Type::getIntNTy(getGlobalContext(),64);
+    Type* int64ty=Type::getIntNTy(fn->getType()->getContext(),64);
 
     for(unsigned j=0;j<linvlst.size();j++){
       vector<long long> linvdat=linvlst[j];

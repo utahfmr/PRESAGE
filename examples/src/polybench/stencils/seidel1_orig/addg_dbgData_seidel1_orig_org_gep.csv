@@ -1,0 +1,10 @@
+instruction_name,file_name,line_no,is_vector
+"  %9 = getelementptr double# double* %0# i64 %8",,,0
+"  %20 = getelementptr inbounds double# double* %0# i64 %19",,,0
+"  %22 = getelementptr inbounds double# double* %0# i64 %18",,,0
+"  %26 = getelementptr inbounds double# double* %0# i64 %25",,,0
+"  %31 = getelementptr inbounds double# double* %0# i64 %29",,,0
+"  %35 = getelementptr inbounds double# double* %0# i64 %34",,,0
+"  %40 = getelementptr inbounds double# double* %0# i64 %39",,,0
+"  %43 = getelementptr inbounds double# double* %0# i64 %38",,,0
+"  %47 = getelementptr inbounds double# double* %0# i64 %46",,,0

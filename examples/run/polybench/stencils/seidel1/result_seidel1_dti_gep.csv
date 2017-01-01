@@ -1,0 +1,121 @@
+exec_key,instr_list,original_val,corrupted_val,affected_bit_pos,sdc,benign,crash,error,value_diff,dyn_instr_count,detection_count
+1482524931890116,"  %43 = getelementptr double# double* %castinttoptr21# i64 %relidx_2",26792200,26792712,9,1,0,0,0,2848.878132,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525075439328,"  %40 = getelementptr double# double* %castinttoptr9# i64 %relidx_1",7223920,7289456,16,1,0,0,0,117.573604,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525536123117,"  %49 = getelementptr double# double* %castinttoptr15# i64 %relidx_2",28279528,28279520,3,1,0,0,0,3401.263727,1972097,2
+1482525536426357,"  %49 = getelementptr double# double* %castinttoptr15# i64 %relidx_2",28742376,28742368,3,1,0,0,0,3401.263727,1972097,2
+1482525536643855,"  %49 = getelementptr double# double* %castinttoptr15# i64 %relidx_2",39936744,39936736,3,1,0,0,0,3401.263727,1972097,2
+1482525536874639,"  %49 = getelementptr double# double* %castinttoptr15# i64 %relidx_2",19841768,19841760,3,1,0,0,0,3401.263727,1972097,2
+1482525537144651,"  %29 = getelementptr double# double* %phibase_9# i64 %relidx_1",11207040,11207072,5,1,0,0,0,2675.354261,1972097,2
+1482525537428946,"  %29 = getelementptr double# double* %phibase_9# i64 %relidx_1",9765248,9765280,5,1,0,0,0,2675.354261,1972097,2
+1482525537663072,"  %29 = getelementptr double# double* %phibase_9# i64 %relidx_1",16974208,16974240,5,1,0,0,0,2675.354261,1972097,2
+1482525537906580,"  %29 = getelementptr double# double* %phibase_9# i64 %relidx_1",37663104,37663136,5,1,0,0,0,2675.354261,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525541449727,"  %40 = getelementptr double# double* %castinttoptr9# i64 %relidx_1",16602528,16602532,2,1,0,0,0,1.03599646496e+306,1972097,2
+1482525541692738,"  %40 = getelementptr double# double* %castinttoptr9# i64 %relidx_1",7869856,7869860,2,1,0,0,0,1.03599646496e+306,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525544501169,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",30565976,30565977,0,1,0,0,0,7.65768290312e+307,1972097,2
+1482525544767929,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",23885400,23885401,0,1,0,0,0,7.65768290312e+307,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525547010184,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",38659232,38659234,1,1,0,0,0,7244.527491,1972097,2
+1482525547154446,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",27468960,27468962,1,1,0,0,0,7244.527491,1972097,2
+1482525547302579,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",17589408,17589410,1,1,0,0,0,7244.527491,1972097,2
+1482525547458268,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",25453728,25453730,1,1,0,0,0,7244.527491,1972097,2
+1482525547605259,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",24323232,24323234,1,1,0,0,0,7244.527491,1972097,2
+1482525547747048,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",22971552,22971554,1,1,0,0,0,7244.527491,1972097,2
+1482525547885463,"  %35 = getelementptr double# double* %castinttoptr6# i64 %relidx_1",30901408,30901410,1,1,0,0,0,7244.527491,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+1482525549078680,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",26440696,26440700,2,1,0,0,0,1.44174097226e+308,1972097,2
+1482525549236643,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",32588792,32588796,2,1,0,0,0,1.44174097226e+308,1972097,2
+1482525549394562,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",12674040,12674044,2,1,0,0,0,1.44174097226e+308,1972097,2
+1482525549550903,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",39363576,39363580,2,1,0,0,0,1.44174097226e+308,1972097,2
+1482525549711062,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",8160248,8160252,2,1,0,0,0,1.44174097226e+308,1972097,2
+1482525549868763,"  %44 = getelementptr double# double* %castinttoptr12# i64 %relidx_2",26747896,26747900,2,1,0,0,0,1.44174097226e+308,1972097,2
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0
+Not Available,,,,,0,0,1,0,1.0,1972097,0

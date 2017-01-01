@@ -1,0 +1,9 @@
+instruction_name,file_name,line_no,is_vector
+"  %duprsltadr_ = getelementptr double# double* %1# i64 %phidx_2",,,0
+"  %duprsltadr_38 = getelementptr double# double* %2# i64 %phidx_16",,,0
+"  %newgep_ = getelementptr double# double* %phibase_5# i64 %relidx_",,,0
+"  %newgep_28 = getelementptr double# double* %newgep_# i64 %relidx_27",,,0
+"  %newgep_30 = getelementptr double# double* %newgep_28# i64 %relidx_29",,,0
+"  %newgep_32 = getelementptr double# double* %phibase_19# i64 %relidx_31",,,0
+"  %newgep_36 = getelementptr double# double* %phibase_25# i64 %relidx_35",,,0
+"  %newgep_34 = getelementptr double# double* %phibase_11# i64 %relidx_33",,,0

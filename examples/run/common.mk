@@ -4,7 +4,7 @@
 # Example specific variable initializations
 # EX_NAME, FCP
 
-VULFI_SRC_DIR=$(HOME)/apps/tools/vulfi/master
+#VULFI_SRC_DIR=$(HOME)/apps/tools/vulfi/master
 EX_DIR = ../../../src/$(EX_NAME)
 BUILD_DIR = $(EX_DIR)/bin
 

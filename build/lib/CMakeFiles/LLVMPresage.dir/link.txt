@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -fPIC -fvisibility-inlines-hidden -Werror=date-time -std=c++11 -ffunction-sections -fdata-sections  -Wl,-O3 -Wl,--gc-sections -shared  -o LLVMPresage.so CMakeFiles/LLVMPresage.dir/Presage.cpp.o CMakeFiles/LLVMPresage.dir/Slice.cpp.o  -L/home/arnabd/apps/llvm/llvm_39/install/lib 

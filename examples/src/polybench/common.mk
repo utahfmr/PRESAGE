@@ -3,19 +3,21 @@ CC=clang
 CXX_FLAGS=-O1 -fno-inline
 
 BUILD_DIR=./bin
-VULFI_LIB_DIR=/usr/local/lib
-PSG_SRC_DIR=$(HOME)/apps/presage
+#VULFI_LIB_DIR=/usr/local/lib
+#PSG_SRC_DIR=$(HOME)/apps/presage
 EX_SRC=$(PSG_SRC_DIR)/examples/src
-VULFI_SRC_DIR=$(HOME)/apps/tools/vulfi/master
+#VULFI_SRC_DIR=$(HOME)/apps/tools/vulfi/master
 INCLUDE_DIRS=-I$(VULFI_SRC_DIR)/runtime/ -I$(EX_SRC)/polybench/utilities \
--I$(HOME)/apps/presage/include
+-I$(PSG_SRC_DIR)/include
 
 LIBS = -lm
 
 all: mkd exe
 
-exe: exe_org exe_ori_gep exe_ori_idx exe_prf exe_pri_gep exe_pri_idx \
+#exe: exe_org exe_ori_gep exe_ori_idx exe_prf exe_pri_gep exe_pri_idx \
 exe_dtr exe_dtr_ty1 exe_dtr_ty2 exe_dti_gep exe_dti_idx
+
+exe: exe_org exe_ori_gep exe_dti_gep
 
 mkd: 
 	mkdir -p $(BUILD_DIR)
@@ -65,26 +67,26 @@ bc_exi: bc_utl bc_crp bc_prt bc_et2
 
 # final bitcode w/ PRESAGE profilers inserted 
 bc_prf: bc_exp
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-fl "noerror" -mode "profile" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME).bc > \
 	$(BUILD_DIR)/$(EX_NAME)_prf.bc	
 
 # final bitcode w/ PRESAGE detectors inserted
 bc_dtr: bc_exp
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-fl $(PRF_FL) -mode "detect" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME).bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dtr.bc	
 	
 bc_dtr_ty1: bc_exp
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-fl $(PRF_FL) -mode "detty1" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME).bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dtr_ty1.bc	
 	
 bc_dtr_ty2: bc_exp
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-fl $(PRF_FL) -mode "detty2" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME).bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dtr_ty2.bc	
@@ -92,56 +94,56 @@ bc_dtr_ty2: bc_exp
 
 # PRESAGE profilers inserted in example bitcode w/ INST Flag
 bc_prc: bc_exi
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-bbn $(BB_LIST) -fl "error"  -mode "profile" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME)_inst.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_psc.bc
 
 # PRESAGE detectors inserted in example bitcode w/ INST Flag
 bc_dtc: bc_exi
-	opt -load /usr/local/lib/LLVMPresage.so -presage -fn $(FN_LIST) \
+	opt -load $(PSG_LIB_DIR)/LLVMPresage.so -presage -fn $(FN_LIST) \
 	-bbn $(BB_LIST) -fl $(PRF_FL) -mode "detect" -bcn $(BCNAME) \
 	< $(BUILD_DIR)/$(EX_NAME)_inst.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dtc.bc
 	
 # final example bitcode w/ VULFI w/ GEP fault sites
 bc_ori_gep: bc_exi
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addg" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_org_gep.csv" < \
 	$(BUILD_DIR)/$(EX_NAME)_inst.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_ori_gep.bc
 	
 # final example bitcode w/ VULFI w/ IDX fault sites	
 bc_ori_idx: bc_exi
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addi" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_org_idx.csv" < \
 	$(BUILD_DIR)/$(EX_NAME)_inst.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_ori_idx.bc
 
 # final example bitcode w/ PRESAGE profilers & VULFI w/ GEP fault sites
 bc_pri_gep: bc_prc
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addg" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_prf_gep.csv" \
 	< $(BUILD_DIR)/$(EX_NAME)_psc.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_pri_gep.bc
 	
 # final example bitcode w/ PRESAGE profilers & VULFI w/ IDX fault sites	
 bc_pri_idx: bc_prc
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addi" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_prf_idx.csv" \
 	< $(BUILD_DIR)/$(EX_NAME)_psc.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_pri_idx.bc
 
 # final example bitcode w/ PRESAGE detectors & VULFI w/ GEP fault sites
 bc_dti_gep: bc_dtc
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addg" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_dtr_gep.csv" \
 	 < $(BUILD_DIR)/$(EX_NAME)_dtc.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dti_gep.bc
 	
 # final example bitcode w/ PRESAGE detectors & VULFI w/ IDX fault sites
 bc_dti_idx: bc_dtc
-	opt -load $(VULFI_LIB_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
+	opt -load $(VULFI_INSTALL_DIR)/LLVMVulfi.so -vulfi -fn $(FN_LIST) \
 	-fsa "addi" -lang "C" -dbgf "dbgData_"$(EX_NAME)"_dtr_idx.csv" \
 	 < $(BUILD_DIR)/$(EX_NAME)_dtc.bc > \
 	$(BUILD_DIR)/$(EX_NAME)_dti_idx.bc
