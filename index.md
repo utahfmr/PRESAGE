@@ -18,16 +18,23 @@ a novel rewriting scheme, dubbed Relative Base Addressing (RBA) scheme, which in
 When you use PRESAGE in your research work, please cite our work using below citation information. The paper could be found [here.](http://arxiv.org/abs/1606.08948)
 
 ```
-@article{DBLP:journals/corr/SharmaGK16,
+@inproceedings{DBLP:conf/hipc/SharmaGK16,
   author    = {Vishal Chandra Sharma and
                Ganesh Gopalakrishnan and
                Sriram Krishnamoorthy},
-  title     = {{PRESAGE: Protecting Structured Address Generation against Soft Errors}},
-  journal   = {CoRR},
-  volume    = {abs/1606.08948},
+  title     = {{PRESAGE:} Protecting Structured Address Generation against Soft Errors},
+  booktitle = {23rd {IEEE} International Conference on High Performance Computing,
+               HiPC 2016, Hyderabad, India, December 19-22, 2016},
+  pages     = {252--261},
   year      = {2016},
-  url       = {http://arxiv.org/abs/1606.08948},
+  crossref  = {DBLP:conf/hipc/2016},
+  url       = {https://doi.org/10.1109/HiPC.2016.037},
+  doi       = {10.1109/HiPC.2016.037},
+  timestamp = {Fri, 26 May 2017 00:49:00 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/hipc/SharmaGK16},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
 ```
 
 ## Getting Started with PRESAGE
