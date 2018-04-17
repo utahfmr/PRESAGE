@@ -22,7 +22,7 @@ When you use PRESAGE in your research work, please cite our work using below cit
   author    = {Vishal Chandra Sharma and
                Ganesh Gopalakrishnan and
                Sriram Krishnamoorthy},
-  title     = {{PRESAGE:} Protecting Structured Address Generation against Soft Errors},
+  title     = {PRESAGE: Protecting Structured Address Generation against Soft Errors},
   booktitle = {23rd {IEEE} International Conference on High Performance Computing,
                HiPC 2016, Hyderabad, India, December 19-22, 2016},
   pages     = {252--261},
