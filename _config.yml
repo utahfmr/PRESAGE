@@ -1,0 +1,8 @@
+title: PRESAGE - A Tool for Protecting Structured Address Computations
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions
